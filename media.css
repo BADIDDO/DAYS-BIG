@@ -1,0 +1,66 @@
+@media (max-width : 887px) {
+    nav .container {
+        width: 90%;
+    }
+    nav .container .logo {
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    nav .container .link li a{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .landing-page .container {
+        width: 90%;
+    }
+    .landing-page .container .img img {
+       display: none;
+    }
+    .cards {
+        width: 90%;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .cards .one:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 2px 15px rgb(0 0 0 / 30%);
+    }
+    .gallery .container {
+        width: 90%;
+    }
+    .container .box {
+        display: block;
+    }
+    .team  {
+        display:none;
+    }
+    .work {
+        margin-top: 10px;
+    }
+    .work .container {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    .container .work-content {
+        display: block;
+    }
+    .work-content .stages .first-box {
+        margin-top: 20px;
+    } 
+    .contact {
+        display: block;
+    padding-bottom: 30px;
+    }
+    .contact .left p {
+        width: 90%;
+    }
+    .contact .right input , .input {
+        width: 80%;
+        }
+        footer .container {
+            width: 90%;
+            display: block;
+            text-align: center;
+        }
+}
